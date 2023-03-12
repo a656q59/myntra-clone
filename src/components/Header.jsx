@@ -22,8 +22,8 @@ function Header(props) {
             <a className="nav-link active" aria-current="page" href="/products/">All </a>
             <a className="nav-link active" aria-current="page" href="/products/category/men's clothing">MEN</a>
             <a className="nav-link active" aria-current="page" href="products/category/women's clothing">WOMEN</a>
-            <a className="nav-link active" aria-current="page" href="#">HOME & LIVING</a>
-            <a className="nav-link active" aria-current="page" href="#">BEAUTY</a>
+            <a className="nav-link active" aria-current="page" href="/products/">HOME & LIVING</a>
+            <a className="nav-link active" aria-current="page" href="/products/">BEAUTY</a>
             </li>
 
 
