@@ -16,7 +16,7 @@ function ProductDetailPage(props) {
                return request;
             }
             fectchData();
-        },[])
+        },[resolvd.pathname])
    
 
     return (
@@ -30,7 +30,7 @@ function ProductDetailPage(props) {
                             <div className="col">
                                 <img className="img-props" src={product.image} alt="" />
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <img className="img-props" src={product.image} alt="" />
                             </div>
                         </div>
@@ -61,7 +61,7 @@ function ProductDetailPage(props) {
                     
 
                     <div className='price fw-bold fs-2'>{product.price}</div>
-                    {product.category && product.category==`men's clothing` &&<div className='size-buttons-container w-50'>
+                    {product.category && product.category===`men's clothing` &&<div className='size-buttons-container w-50'>
                         <div className="size-buttons-header d-flex">
                             <div className='ml-4'>SELECT SIZE</div>
                             <div>SIZE CHART</div>

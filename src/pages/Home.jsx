@@ -28,7 +28,7 @@ function Home(props) {
                 <div className="row">
                     {categories.map(category=>(     
                 
-                    <div className='col'> <Card image={ima} className="mx-auto" key={category} name={category} onClick={handleClick}/>  </div>                 
+                    <div className='col' key={category}> <Card image={ima} className="mx-auto" key={category} name={category} onClick={()=>handleClick(category)}/>  </div>                 
                         
                     ))}      
                 </div>   

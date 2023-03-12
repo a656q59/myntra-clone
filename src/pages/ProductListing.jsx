@@ -23,7 +23,7 @@ function ProductListing(props) {
         }
         fectchData();
    
-    },[currentPage])
+    },[currentPage,location.pathname])
     const handleClick= (id)=>{
      }
      const handlePageChange=(page) =>{
