@@ -20,10 +20,10 @@ function Header(props) {
 
             <li className="nav-item d-md-flex flex-md-row justify-content-md-evenly w-50 ">
             <Link className="nav-link " aria-current="page" to="/products">All Products </Link>
-            <a className="nav-link" aria-current="page" href="/products/category/men's clothing">MEN</a>
-            <a className="nav-link" aria-current="page" href="products/category/women's clothing">WOMEN</a>
-            <a className="nav-link" aria-current="page" href="/products/">HOME & LIVING</a>
-            <a className="nav-link" aria-current="page" href="/products/">BEAUTY</a>
+            <Link className="nav-link" aria-current="page" to="/products/category/men's clothing">MEN</Link>
+            <Link className="nav-link" aria-current="page" to="products/category/women's clothing">WOMEN</Link>
+            <Link className="nav-link" aria-current="page" to="/products/electonics">HOME & LIVING</Link>
+            <Link className="nav-link" aria-current="page" to="/products/jewelery">BEAUTY</Link>
             </li>
 
 
