@@ -1,0 +1,12 @@
+.home{
+    margin-left: 4em;
+    margin-right: 4em;
+    height: 100vh;
+}
+.container{
+   display: flex;
+
+}
+.col{
+    margin: 10px;
+}
