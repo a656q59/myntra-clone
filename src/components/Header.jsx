@@ -33,9 +33,9 @@ function Header(props) {
 
 
             <li className="nav-item check-this d-flex w-25 justify-content-evenly">
-                <a className="nav-link active" aria-current="page" href="#">Profile</a>
-                <a className="nav-link active" aria-current="page" href="#">Wishist</a>
-                <a className="nav-link active " aria-current="page" href="#">Bag</a>
+                <a className="nav-link active" aria-current="page" href="/products/">Profile</a>
+                <a className="nav-link active" aria-current="page" href="/products/">Wishist</a>
+                <a className="nav-link active " aria-current="page" href="/products/">Bag</a>
             </li>               
 
 
